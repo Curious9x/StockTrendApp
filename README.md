@@ -41,8 +41,39 @@ Quantmod package
 A sample call to FRED data
 ----------------
 
+
 ```r
 library(quantmod)
+```
+
+```
+## Loading required package: xts
+```
+
+```
+## Loading required package: zoo
+```
+
+```
+## 
+## Attaching package: 'zoo'
+```
+
+```
+## The following objects are masked from 'package:base':
+## 
+##     as.Date, as.Date.numeric
+```
+
+```
+## Loading required package: TTR
+```
+
+```
+## Version 0.4-0 included new data defaults. See ?getSymbols.
+```
+
+```r
 options("getSymbols.warning4.0"=FALSE)
 d = getSymbols('CPIAUCNS', src = 'FRED',auto.assign = FALSE)
 str(d)
@@ -58,12 +89,12 @@ str(d)
 ##   xts Attributes:  
 ## List of 2
 ##  $ src    : chr "FRED"
-##  $ updated: POSIXct[1:1], format: "2017-07-30 09:56:16"
+##  $ updated: POSIXct[1:1], format: "2017-07-30 10:09:11"
 ```
-
 Visual representation
 ---------------------
 get stock data:
+
 
 ```r
 data <- getSymbols(
@@ -76,6 +107,7 @@ data <- getSymbols(
 ```
 chart series
 ------------
+
 
 ```r
 chartSeries(
