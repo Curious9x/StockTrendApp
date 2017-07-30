@@ -60,12 +60,19 @@ An 'xts' object on 1913-01-01/2017-06-01 containing:
   xts Attributes:  
 List of 2
  $ src    : chr "FRED"
- $ updated: POSIXct[1:1], format: "2017-07-30 09:46:35"
+ $ updated: POSIXct[1:1], format: "2017-07-30 10:01:13"
 ```
 
 Visual representation
 =====================
+get stock data:
 
+```r
+data <- getSymbols('JPM',src = "google",from = '2017-01-01',to = Sys.Date(),auto.assign = FALSE)
+```
+chart series
+------------
+![alt text](README_files/figure-html/unnamed-chunk-3-1.png)
 
 Shiny
 =====

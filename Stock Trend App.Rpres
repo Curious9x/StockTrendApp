@@ -51,7 +51,13 @@ str(d)
 
 Visual representation
 =====================
-
+get stock data:
+```{r echo=TRUE}
+data <- getSymbols('JPM',src = "google",from = '2017-01-01',to = Sys.Date(),auto.assign = FALSE)
+```
+chart series
+------------
+![alt text](README_files/figure-html/unnamed-chunk-3-1.png)
 
 Shiny
 =====
