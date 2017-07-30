@@ -1,0 +1,11 @@
+name: StockTrendApp
+title: StockTrendApp
+account: myrprojects
+server: shinyapps.io
+appId: 200650
+bundleId: 920835
+url: https://myrprojects.shinyapps.io/StockTrendApp/
+when: 1501421062.36749
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: .gitattributes|README.html|README.md

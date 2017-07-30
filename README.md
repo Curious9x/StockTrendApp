@@ -11,8 +11,11 @@ Introduction
 - Max/Min price for date range
 - Max/Min volume for date range
 
-App
----
+Stock Trend App
+---------------
+Stock trend app is hosted on shiny server. App link is as:
+
+https://myrprojects.shinyapps.io/StockTrendApp/
 
 Lookup Stock Symbol
 -------------------
